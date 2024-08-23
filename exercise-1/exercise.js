@@ -43,3 +43,12 @@ if (presentStudents.length < minimunAttendance) {
 else {
     console.log("Exercise 5 NO (no suspende)");
 }
+
+// EJ 7
+const objetValue = {
+    firstName: "Emanuel",
+    lastName: "Camacho",
+    age: 23,
+};
+const toArray = (objetVar) => Object.entries(objetVar);
+console.log("Exercise 7",objetValue);
